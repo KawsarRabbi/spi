@@ -23,7 +23,7 @@
 
     <section class="container_fluid">
       <div class="container">
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <button class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -254,10 +254,25 @@
 
               </li>
               <li class="nav-item">
-                <a class="nav-link a" href="#">একাডেমিক</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link a" href="#">কার্যক্রম</a>
+                <a class="nav-link a" href="#">অন্যান্য <i class="bi bi-chevron-down"></i></a>
+
+                <div class="subMenu row">
+                  <div class="col-lg-4 subMenuItem mb-3">
+                    <ul>
+                      <li><a href="">একাডেমিক</a></li>
+                      <li><a href="">কার্যক্রম</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-lg-4 subMenuItem mb-3">
+                    
+                  </div>
+
+                  <div class="col-lg-4 subMenuItem mb-3">
+                    
+                  </div>
+                </div>
+
               </li>
             </ul>
           </div>
@@ -408,7 +423,7 @@
       closeIcon.addEventListener("click", () => inputBox.classList.remove("open"));
     </script>
 
-    <!-- Optional JavaScript -->
+    <!-- Others JavaScript Link-->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>

@@ -46,7 +46,7 @@ li.nav-item {
 }
 .menuOption ul li .a{
     color: white !important;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Mukti', sans-serif !important;
 }
 .menuOption ul li .a:hover{
@@ -169,7 +169,7 @@ li.nav-item {
     transform: translateY(-50%) rotate(180deg);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 991px) {
     .homeIcon{
         width: 100% !important;
     }
