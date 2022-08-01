@@ -6,6 +6,13 @@ body{
     font-family: 'Mukti', sans-serif; /*'Noto Serif Bengali', 'Chakra Petch' is another font*/
     background: #cccccc;
 }
+
+
+
+/*Whole Header css*/
+
+
+
 .container_fluid{
     background-color: rgb(52 58 64);
 }
@@ -173,4 +180,218 @@ li.nav-item {
     .homeIcon{
         width: 100% !important;
     }
+}
+
+
+
+/*noticeBoard css*/
+
+
+.noticeBoard{
+    background-color: white;
+}
+.noticeBoard ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.noticeBoard ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 2;
+    font-size: 16px;
+    border-bottom: 1px solid #009700;
+}
+.noticeBoard ul li a:hover{
+    color: #009700;
+    padding-left: 5px;
+}
+.noticeBoard ul li i{
+    color: #009700;
+    padding-right: 10px;
+}
+
+.allNotice {
+    padding: 0px 5px 6px 0px;
+}
+.allNotice a {
+    color: white;
+    padding: 0px 10px;
+    background-color: #009700;
+    text-decoration: none;
+}
+.allNotice a:hover{
+    color: #333;
+    background-color: transparent;
+    outline: 1px solid #009700;
+    transition: 0.3s;
+}
+.noticeBoardTitle h3 {
+    background: #009700;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+
+/*noticeList css*/
+
+
+.noticeList{
+    background-color: white;
+}
+.noticeList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.noticeList ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 2;
+    font-size: 16px;
+    border-bottom: 1px solid #009700;
+}
+.noticeList ul li a:hover{
+    color: #009700;
+    padding-left: 5px;
+}
+.noticeList ul li i{
+    color: #009700;
+    padding-right: 10px;
+}
+.noticeListTitle h4 {
+    background: #009700;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+
+
+.principalImg {
+    position: relative;
+}
+  
+.prinImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 38px;
+}
+.principalTitle h4 {
+    background: rgb(52 58 64);
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    width: 100%;
+}
+  
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.overlay a{
+    color: white;
+    text-decoration: none;
+    background-color: #009700;
+    padding: 0px 5px;
+    font-size: 16px;
+}
+.overlay a:hover{
+    background-color: transparent;
+    outline: 1px solid #009700;
+    transition: 0.3s;
+}
+
+
+
+
+.OthersNoticeList{
+    background-color: white;
+}
+.OthersNoticeList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.OthersNoticeList ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 2;
+    font-size: 16px;
+    border-bottom: 1px solid #009700;
+}
+.OthersNoticeList ul li a:hover{
+    color: #009700;
+    padding-left: 5px;
+}
+.OthersNoticeList ul li i{
+    color: #009700;
+    padding-right: 10px;
+}
+.OthersNoticeListTitle h4 {
+    background: rgb(52, 58, 64);
+    color: white;
+    padding: 5px 10px;
+}
+
+.OthersNoticeList audio {
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+.OthersNoticeList img {
+    width: 100%;
+}
+.socialLink {
+    display: inline-block;
+}
+
+.socialLink a {
+    max-width: 80px;
+    float: left;
+}
+.socialLink a img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.departments h4 {
+    color: white;
+}
+
+.departments ul {
+    margin: 0;
+    padding: 0;
+}
+
+.departments ul li {
+    list-style-type: none;
+}
+
+.departments ul li a {
+    color: white;
+}
+.departments ul li a:hover {
+    color: rgb(3, 195, 9);
+    padding-left: 5px;
+    transition: 0.3s;
+}
+.copyRight p{
+    color: rgb(139 139 139);
 }
