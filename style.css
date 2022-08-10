@@ -182,9 +182,25 @@ li.nav-item {
     }
 }
 
+.instituteName a {
+    color: #343a40;
+}
+.instituteName a:hover {
+    color: #009700;
+}
 
 
-/*noticeBoard css*/
+
+/*News Ticker*/
+
+.recentNotice {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 10px 4px 10px;
+    font-size: 17px;
+}
+
+/*noticeBoard*/
 
 
 .noticeBoard{
@@ -353,7 +369,7 @@ li.nav-item {
 }
 
 .OthersNoticeList audio {
-    width: -webkit-fill-available;
+    width: 100%;
     padding: 10px;
 }
 .OthersNoticeList img {
